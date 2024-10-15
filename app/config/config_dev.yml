@@ -1,0 +1,16 @@
+# imports 导入文件，如果没有前缀或者后缀，那么默认yaml文件在当前目录下
+# 主要作用在于引入其他bundle的数据
+# config.yml 在配置中会自动读取无需额外处理
+imports: {}
+
+# 全局配置
+parameters:
+  # 基本参数， 站点参数
+  web_profiler:
+    toolbar: false
+
+    intercept_redirects: false
+
+    IP_white_list: false
+
+  root_host: http://localhost:8000

@@ -1,0 +1,26 @@
+{
+  "name": "aia/customer-sdk",
+  "autoload": {
+    "psr-4": {
+      "": [
+        "src/"
+      ]
+    },
+    "files": [],
+    "classmap": [
+      "web/AppKernel.php",
+      "packages/HttpKernel/",
+      "packages/HttpFoundation/",
+	  "packages/MysqlRegister",
+      "app/global/",
+      "web/public/Spyc.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "ext-xml": "*",
+    "ext-ctype": "*",
+    "ext-pdo": "*",
+    "millionmile/get_env": "^1.0"
+  }
+}

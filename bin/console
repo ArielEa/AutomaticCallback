@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+require dirname(__DIR__).'/src/TopSdk.php';
+
+// fixme 后期处理报错，采用terminal， 页面则是使用 httpException
+DyEnvPool::LoadSystemConfig();
+
+$kernel = ForwardTopClient::setInstance();
+
+$kernel->transferStation($argv);

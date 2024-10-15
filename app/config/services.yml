@@ -1,0 +1,7 @@
+imports:
+
+services:
+  test_services:
+    class: Open\OpenApiBundle\Service\TestServices
+    arguments:
+      - "abc"
